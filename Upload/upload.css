@@ -1,0 +1,42 @@
+.upload-panel{
+    background-color: rgba(0, 0, 0,.3) ;
+    margin: 20px;
+    padding-bottom:20px;
+    }
+.upload-info-comp{
+    display: flex;
+    padding:20px;
+    padding-left: 80px;
+}
+.upload-info{
+    padding-left:10px;
+    padding-right:10px;
+    width: 120px;
+}
+.next-button-center{
+    display: flex;
+    justify-content: center;
+}
+.Quiz-avail{
+    display: flex;
+    padding :20px;
+    padding-left:90px;
+}
+.quiz-button{
+    padding-left:40px;
+}
+.uploaded-info{
+    padding: 20px;
+    padding-left : 80px;
+    display: flex;
+}
+.uploaded-info-content{
+    padding-left : 20px;
+    padding-right:10px; 
+    width : 100px;
+}
+.error-msg{
+    color: red;
+    padding-left: 20px;
+    font-size: 0.9em;
+}

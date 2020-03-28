@@ -1,0 +1,57 @@
+.Footer-all{  
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0,.45) ;
+    border: 2 solid black;
+    margin-top: 20px;
+}
+.Foot-tot{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+.Foot-left{
+    display: flex;
+    width:70%;
+    padding-left:40px;
+}
+.Foot-right{
+    display: flex;
+    width:25%;
+    padding-left:40px;
+}
+.below{
+display: flex;
+height: 20px;
+justify-content: flex-end;
+}
+.below-left{
+    display: flex;
+    width: 90%;
+}
+.below-right{
+    display: flex;
+    float:right;
+}
+.below-comp{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.below-right img:hover{
+    transform: scale(1.05);
+}
+.Footer-sub{
+    padding: 10px;
+    padding-left: 0px;
+}
+.Footer-sub:hover{
+    cursor: pointer;
+    color: aqua;
+    transform: scale(1.005);
+}

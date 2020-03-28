@@ -1,0 +1,9 @@
+.whole{
+    background: #1697FB;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+background-size: 100%;
+min-width: 720px;
+background-attachment: fixed;
+color:white;
+font-family:'Abril Fatface', Arial, sans-serif;
+}

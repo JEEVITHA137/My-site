@@ -1,0 +1,10 @@
+.Container{
+  margin-left: 120px;
+  background-color: white;
+  width:500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.loading{
+  text-align: center;
+  }

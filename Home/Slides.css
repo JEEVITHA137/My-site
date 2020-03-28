@@ -1,0 +1,12 @@
+
+.slider{
+    margin-top : 20px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0,.3) ;
+    border: 2 solid black;
+}
+.slide-item{
+    padding: 10px;
+}

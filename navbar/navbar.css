@@ -1,0 +1,188 @@
+.navibar{
+  height:30px;
+  display: block;
+}
+.navi-tot{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    float:right;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background: linear-gradient(to top, #29323c, #485563);
+    
+}
+.input input{
+  background-color: rgb(56, 55, 55);
+  outline-style: none;
+  width : 150px;
+  height: 18px;
+  margin-right: 20px;
+  border-radius:25px;
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    width:50%;
+}
+.navi-comp{ 
+    padding: 5px;
+    margin: 5px;
+    padding-top: 8px;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+.navi-comp input {
+  color: white;
+}
+.logo{
+    display: flex;
+    font-weight: bolder;
+}
+.logo-name {
+     display: flex;
+     padding-top: 12px; 
+     height: 20px;
+}
+.navi-comp:hover{ 
+  color: black;
+  transform: scale(1.15);
+  cursor: pointer;
+  font-weight: bold;
+}
+  .menu-button{
+    cursor: pointer;
+  }
+  .right-menu{
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .right-menu-login{
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  .dropdown-menu-login{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-weight: normal;
+  }
+  .right-menu:hover .dropdown-menu {  
+    background: linear-gradient(to top, #29323c, #485563);
+    display: block;
+    border-radius:25px;
+    right:0;
+  }
+  
+  .right-menu-login:hover .dropdown-menu-login {
+    background: linear-gradient(to top, #29323c, #485563);
+    display: block;
+    right:0;
+    border-radius:15px;
+    max-height : 130px;
+  }
+  .login-options{
+    display: block;
+  }
+  .login-option{
+    display: flex;
+  }
+  .login-option h5{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left:5px;
+    margin-right:5px;
+    padding-top:10px;
+  }
+  .login-option img{
+    padding: 3px;
+    padding-top:10px;
+  }
+  .login-option h5:hover{
+    cursor: pointer;
+    color:  black;
+    transform: scale(1.05);
+  font-weight: bolder;
+}
+  .menu-options{
+      display: flex;
+  }
+  .menu-opt{
+      padding: 12px;
+      width: 180px;
+  }
+  .menu-option{
+      padding: 8px;
+  }
+  
+  .menu-option:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.05);
+  font-weight: bolder;
+}
+
+  .menu-opt h5:hover{
+      cursor: pointer;
+      color: black ;
+      transform: scale(1.05);
+    font-weight: bolder;
+  }
+  
+  .right-opt{
+      float: right;
+  }
+  @media screen and (max-width: 800px) {
+  .hide{ 
+    display: none;
+  }
+  .logo{
+    padding-right: 175px;
+  }
+  } 
+  a{
+      color: inherit;
+      text-decoration: none;
+  }
+  
+  @media screen and (max-width: 1000px) {  
+  .right-menu:hover .dropdown-menu {
+     width: 600px;
+  }
+  .menu-option{
+      display: none;
+  }
+    } 
+  .bigg{
+    width:90px;
+    text-align: center;
+  }
+    @media screen and (max-width: 800px) {  
+    .right-menu:hover .dropdown-menu {
+       width: 180px;
+    }
+    .menu-options{
+        display: block;
+        
+    }
+    .menu-option{
+        padding: 2px;
+    }
+    .menu-opt{
+      padding: 0;
+        padding-left: 12px;
+    }
+      } 

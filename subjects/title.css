@@ -1,0 +1,74 @@
+.title-card{
+    background-color: rgba(0, 0, 0,.3) ;
+    margin : 15px;
+    border: 1px solid white;
+    margin-top: 35px;
+    border-radius:15px;
+    padding-bottom: 40px;
+}
+.course-title-name{
+    color: aqua;
+    padding-left :30px;
+    padding-top: 3px;
+    display: flex;
+}
+.videos-list{
+    display: flex;
+    padding-left:80px;
+}
+.videos-list h4{
+    margin-right: 45px;
+}
+.videos-list img{
+    margin-right: 45px;
+    padding-top: 12px;
+}
+
+.video-play{
+    display: flex;
+}
+.video-play h4:hover{
+    color: aqua;
+}
+.videos-list:hover{
+    cursor: pointer;
+}
+.video-playing{
+    display: flex;
+    justify-content: center;
+}
+.bright:hover{
+    cursor: pointer;
+    color: aqua;
+    transform: scale(1.005);
+}
+.Quiz-video-name{
+    padding-left: 30px;
+}
+.practise{
+    padding-top: 73px;
+}
+.video-list-name{
+    padding-top: 3px;
+    width:300px;
+}
+.video-on{
+    display: flex;
+    padding-left: 50px;
+}
+.gap{
+    margin-left: 30px;
+}
+ 
+@media screen and (max-width: 1000px) {  
+   
+.video-on{
+    display: block;
+    padding-left: 10px;
+}
+
+.gap{
+    margin-left: 80px;
+}
+
+    }

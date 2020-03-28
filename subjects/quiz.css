@@ -1,0 +1,92 @@
+.quiz-base{  
+    background-color: rgba(0, 0, 0,.7) ;
+    margin: 20px;
+    margin-top: 35px;
+    border: 1px solid white;
+    border-radius:15px;
+    }
+    .Quiz-ques{
+        display: flex;
+        padding : 30px;
+        padding-left:60px;
+        font-size: 20px;
+    }
+    .ques-no{
+        width:40px;
+    }
+    .quiz-opt{
+        display: flex;
+        padding: 15px;
+        padding-left:140px;
+        cursor: pointer;
+    }
+    .next-button-last{
+    padding-left :600px;
+    }
+    .next-button{
+    padding-left :400px;
+    }
+    .lower-buttons{
+        display: flex;
+        padding-left:40px;
+    }
+    .answer{
+        padding-right :20px;
+    }
+    .answer-comp{
+        padding:10px;
+        
+    }
+    .answer-below{
+     display: flex;
+     padding-left:90px;
+    }
+    .marks{
+        font-size:30px;
+    }
+    .marks-scored{
+        font-size:30px;
+        color:aqua;
+    }
+    .wrong{
+        display: flex;
+    }
+    .wrong-answer{
+        width:300px;
+    }
+   .quiz-ques-no{
+       padding-top: 2px;
+   }
+   .answer-retry{
+       display: flex;
+       justify-content: center;
+       padding: 20px;
+   }
+    .red{
+        color:red;
+    }
+    
+    .green{
+        color:green;
+    }
+    .white{
+        color:white;
+    }
+    .next-tags{
+        display: flex;
+        padding-top: 18px;
+    }
+    .last-tag{
+      padding-top: 2px;
+    }
+    .final-tag{
+        color :aqua;
+        padding-top: 2px;
+    }
+    .answer-below{
+        padding: 20px;
+    }
+    .pie-chart{
+        padding: 60px;
+        padding-top: 70px;
+    }
